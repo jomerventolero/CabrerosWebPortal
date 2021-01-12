@@ -1,0 +1,59 @@
+body
+{
+ text-align:center;
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:helvetica;
+}
+#wrapper
+{
+ text-align:center;
+ margin:auto;
+ padding:0px;
+ width:auto;
+ background-color: green ;
+}
+#contact:hover{
+
+}
+#form1
+{
+ background-color:white;
+ width:380px;
+ margin:0 auto;
+ box-shadow:0px 0px 10px 0px #D8D8D8;
+}
+#form1 p
+{
+ color:green;
+ font-weight:bold;
+}
+#form1 #login_label
+{
+ color:green;
+ padding:20px;
+ font-size:25px;
+ border-bottom:1px solid #fff;
+ font-weight:bold;
+}
+#form1 input[type="text"],input[type="password"]
+{
+ width:300px;
+ height:40px;
+ padding-left:10px;
+ margin-top:10px;
+ border:1px solid green;
+}
+#form1 input[type="submit"]
+{
+ margin-top:10px;
+ width:300px;
+ height:40px;
+ background-color:green;
+ border:none;
+ color:white;
+ box-shadow:0px 3px 0px 0px blue;
+ border-radius:3px;
+ font-weight:bold;
+}
