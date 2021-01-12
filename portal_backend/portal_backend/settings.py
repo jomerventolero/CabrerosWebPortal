@@ -1,16 +1,17 @@
 from pathlib import Path
 import os
 
-BASE_DIR = Path(__file__).resolve().parent.parent
 
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 SECRET_KEY = '!rq2f^4qd=sww%^at=_o9&2lnithe+)3skmt++ktq+zi(igs#p'
 
+
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
@@ -23,6 +24,7 @@ INSTALLED_APPS = [
     'login'
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -33,7 +35,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 ROOT_URLCONF = 'portal_backend.urls'
+
 
 TEMPLATES = [
     {
@@ -51,9 +55,8 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'portal_backend.wsgi.application'
-
-
 
 
 DATABASES = {
@@ -62,8 +65,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
 
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -82,8 +83,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -93,8 +92,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
 
 
 STATIC_URL = '/static/'
